@@ -12,7 +12,7 @@ ____
 * CSS
 * HTML
 * JS Bacis 
-________
+____
 ## 5. Code example:
 ```js
 function multiTable(number) {
@@ -35,4 +35,4 @@ ____
 ## 8. My english level: 
 * written C1
 * spoken B2
-______
+____
