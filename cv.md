@@ -11,7 +11,7 @@ ____
 ## 4. My skills:
 * CSS
 * HTML
-* JS Bacis 
+* JS Bacis
 ____
 ## 5. Code example:
 ```js
