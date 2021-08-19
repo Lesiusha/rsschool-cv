@@ -1,61 +1,104 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lesiusha</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    <div>
-        <h2>1.Harnastayeva Alesia</h2>
-    </div>
-    <div>
-        <h2>2.My contacts</h2>
-        <ul>
-            <li>Phone number : +375293621752</li>
-            <li>Discord: lesiusha#2815</li>
-        </ul>
-    </div>
-    <div>
-        <h2>3. Some words about myself</h2>
-        <p>
-            I’m 32 years old, live in Minsk. I have been working in bank for 10 years and now I want to change my profession. That’s why I’m stydying at RS School now.
-        </p>
-    </div>
-    <div>
-        <h2>4. My skills:</h2>
-        <ul>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>JS Bacis</li>            
-        </ul>
-        <h2>5. Code example:</h2>
-        <code> function multiTable(number) {<br>
-            let i = 1;<br>
-            let str = '';<br>
-            while (i <= 10) {<br>
-              str += `${i} * ${number} = ${i * number}\n`;<br>
-              i++;<br>
-            }<br>
-            console.log(str);<br>
-            }<br>
-        </code>
-    </div>
-        <h2>6.I have no IT-experience yet</h2> 
-    </div>
-    <div>
-        <h2>7. My Education</h2>
-        <ul>
-            <li>Belarus State Economic University’2012 (economist)</li>
-            <li>Belarus State University’2012 (Translator & Assistant)</li>
-        </ul>
-    </div>
-    <div>
-        <h2>7. My English level</h2>
-        <ul>
-            <li>written C1</li>
-            <li>spoken B2</li>
-        </ul>
-    </div>
+    <header class="wrap1">
+        <div class="wrap2">
+            <div class="section_photo">
+                <figure class="photo">
+                    <img class="img_foto1" src="foto1.jpg" alt="photo" width="200" height="200">
+                </figure>
+            </div>
+            <section class="about-me-header">
+                <h3 class="name">Alesia Gornostaeva</h3>
+                <h3 class="name">Junior Front-end Developer</h3>
+            </section>
+        </div>
+    </header>
+    <main class="main-wrapper">
+        <div class="main">
+            <section class="main1">
+                <div class="col_1">
+                    <div>
+                        <h2>My contacts</h2>
+                        <ul class="contacts">
+                            <li>Minsk, Belarus</li>
+                            <li>Phone number : +375293621752</li>
+                            <li>Discord: lesiusha#2815</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Some words about myself</h2>
+                        <div class="about-me">
+                            I’m 32 years old, live in Minsk. I have been working in bank for 10 years and now I want
+                            to
+                            change
+                            my
+                            profession. That’s why I’m stydying at RS School now.
+                        </div>
+                    </div>
+                    <div>
+                        <h2>My skills:</h2>
+                        <ul>
+                            <li>CSS Bacis</li>
+                            <li>HTML Bacis</li>
+                            <li>JS Bacis</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="main2">
+                <div class="col_2">
+                    <div>
+                        <h2>Code example:</h2>
+                        <code> function multiTable(number) {<br>
+                    let i = 1;<br>
+                    let str = '';<br>
+                    while (i &lt;= 10) {<br>
+                    str += `${i} * ${number} = ${i * number}\n`;<br>
+                    i++;<br>
+                    }<br>
+                    console.log(str);<br>
+                    }<br>
+                </code>
+                    </div>
+                    <h2>I have no IT-experience yet</h2>
+                    <p>I began to study learnig JS-course at RS-school this year. Really it's my first task</p>
+                    <div>
+                        <h2>My Education</h2>
+                        <ul>
+                            <li>Belarus State Economic University’2012 (economist)</li>
+                            <li>Belarus State University’2012 (Translator & Assistant)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>My English level</h2>
+                        <ul>
+                            <li>written C1</li>
+                            <li>spoken B2</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/lesiusha"><span>Write me on GitHub</span>
+        </a> <span> 2021 © Все права защищены.</span>
+        <a href="https://rs.school/js/">
+            <figure><img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="logo" width="10" height="10">
+            </figure>
+
+        </a>
+    </footer>
 </body>
+
 </html>
