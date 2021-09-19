@@ -142,7 +142,6 @@ h4 {
 
 .menu {
     display: flex;
-    margin: 0 -15px;
     justify-content: space-between;
 }
 
@@ -177,7 +176,7 @@ h4 {
     cursor: pointer;
 }
 iframe {
-    width: 100%;
+    max-width: 100%;
     border: none;
     border-style: none;
 }
