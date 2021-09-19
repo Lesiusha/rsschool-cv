@@ -179,7 +179,11 @@ h4 {
 .menu__burger:hover{
     cursor: pointer;
 }
-
+iframe {
+    width: 100%;
+    border: none;
+    border-style: none;
+}
 @media (max-width: 600px) {
     .main{
         display: block;
