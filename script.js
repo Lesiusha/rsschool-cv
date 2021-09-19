@@ -6,4 +6,6 @@ window.addEventListener('load', function() {
         menu.classList.toggle('active');
     });
 
+    console.log('My score is 150 points')
+
 });
