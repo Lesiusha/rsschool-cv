@@ -150,6 +150,8 @@ h4 {
     max-width: 1024px;
     margin: 15px auto;
     background-color: #d3eefa;
+    position: sticky;
+    top: 0px;
 }
 
 .menu__item {
@@ -171,6 +173,7 @@ h4 {
 
 .menu__burger {
     display: none;
+    margin-left: 15px;
 }
 
 .menu__burger:hover{
